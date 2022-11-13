@@ -37,18 +37,24 @@ body {
     height: 200px; 
     width:  200px;
     border-radius: 50%;
+    border: #555;
+    border-width: 2px;
 }
 
 .nav-image {
     height: 100px; 
     width:  100px;
     border-radius: 50%;
+    border: #555;
+    border-width: 2px;
 }
 
 .main-logo {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    border: #555;
+    border-width: 2px;
 }
 
 .main-nav {
@@ -82,7 +88,7 @@ body {
     height: auto;
     display: flex;
     padding: 10px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     justify-self: center;
     
 }
@@ -95,25 +101,26 @@ body {
     font-weight: 500;
     border-radius: .50rem;
     background-color: white;
+    border: 2px solid #555;
 }
 
 .index-buttons:hover,
 .index-buttons:focus {
     border-color: rgba(0, 0, 0, 0.15);
-    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px; */
     color: rgba(0, 0, 0, 0.65);
 }
 
-.index-buttons:hover {
+/* .index-buttons:hover {
     transform: translateY(-1px);
-}
+} */
 
 .index-buttons:active {
     background-color: #F0F0F1;
     border-color: rgba(0, 0, 0, 0.15);
-    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    /* box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px; */
     color: rgba(0, 0, 0, 0.65);
-    transform: translateY(0);
+    /* transform: translateY(0); */
 }
 
 .footer-links {
@@ -211,3 +218,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
     margin-bottom: 0;
 }
 
+.insp-center {
+    display: flex;
+    flex-grow: 1 0 1;
+}
