@@ -27,6 +27,7 @@
   .modal-content {
     margin: auto;
     display: block;
+    border-radius: 1%;
     max-width: 90%;
     max-height: 90vh;
   }
