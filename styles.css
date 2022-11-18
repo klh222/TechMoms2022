@@ -154,6 +154,7 @@ img {
 
 .bordered-img {
     border: 2px solid #555;
+    border-radius: 5px;
   }
 
   .text-box {
@@ -221,4 +222,9 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 .insp-center {
     display: flex;
     flex-grow: 1 0 1;
+}
+
+insp.container {
+    display: flex;
+    align-items: center;
 }

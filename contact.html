@@ -6,7 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <link rel="stylesheet"  href="styles.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <style>
+      
+      input, textarea { 
+      outline: none;
+      }
+      
+      h1 {
+      margin-top: 0;
+      font-weight: 500;
+      }
+      form {
+      position: relative;
+      width: 80%;
+      border-radius: 30px;
+      background: #fff;
+      }
+      
+      .form-inner {
+      padding: 40px;
+      }
+      .form-inner input,
+      .form-inner textarea {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 20px;
+      background: #d0dfe8;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 1rem;
+      }
+      .form-inner textarea {
+      resize: none;
+      }
+      .form-inner button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      border-radius: .50rem;
+      background-color: white;
+      border: 2px solid #555;
+      font-size: 1rem;
+      font-weight: 400;
+      color: rgba(0, 0, 0, 0.65);
+      }
+      button:hover {
+        border-color: rgba(0, 0, 0, 0.15);
+      } 
+      @media (min-width: 568px) {
+      form {
+      width: 60%;
+      }
+      }
+    </style>
 </head>
 <body>
 <div class="main-content">
@@ -33,7 +89,18 @@
     </div></header>
     <h2 class="main-white">Contact</h2>
     <div class="main-white" background-color="">
-       <div>Contact me for info about my art, or to chat about my fandoms!</div>
+        <form action="/" class="decor">
+            <div class="form-left-decoration"></div>
+            <div class="form-right-decoration"></div>
+            <div class="circle"></div>
+            <div class="form-inner">
+              <p>Drop me a note if you'd like to learn more about my art, or chat about fandoms!</p>
+              <input type="text" placeholder="Name">
+              <input type="email" placeholder="Email">
+              <textarea placeholder="Message..." rows="5"></textarea>
+              <button type="submit" href="/">Submit</button>
+            </div>
+          </form>
     </div>
 </div>
     <footer><div class="footer">

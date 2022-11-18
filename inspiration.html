@@ -6,7 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inspiration</title>
     <link rel="stylesheet"  href="styles.css">
+    <style>
+        .insp-container .button {
+            background-color: #555;
+            border: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            padding: 10px 5px;
+            text-align: center;
+            font-size: 1rem;
+            margin: 5px;
+            width: 210px;
+            opacity: 0.6;
+            transition: 0.3s;
+            border-radius: 5px;
+        }
 
+        .insp-container .button:hover {opacity: 1}
+
+        .left-stack {
+            display: block;
+        }
+        </style>
 </head>
 <body>
 
@@ -37,26 +58,42 @@
         <img class="pre-hover-image bordered-img" src="images/insp-center.jpg" alt="Photo of Emma Harmon">
    </div>
    <div class="main-white insp-container" background-color="">
-        <div>
-            <div class="hover-title"><h4>Insta Artist 1</h3></div>
-            <div class="hover-image"><img class="bordered-img" src="images/dannyphantom-sq.jpg" alt="Photo of Danny Phantom" width="350px" height="350px"></div>
-            <div class="hover-title"><h4>Insta Artist 2</h4></div>
-            <div class="hover-image"><img class="bordered-img" src="images/dannyphantom-sq.jpg" alt="Photo of Danny Phantom" width="350px" height="350px"></div>
-            <div class="hover-title"><h4>Insta Artist 3</h4></div>
-            <div class="hover-image"><img class="bordered-img" src="images/dannyphantom-sq.jpg" alt="Photo of Danny Phantom" width="350px" height="350px"></div>
-            <div class="hover-title"><h4>Insta Artist 4</h4></div>
-            <div class="hover-image"><img class="bordered-img" src="images/dannyphantom-sq.jpg" alt="Photo of Danny Phantom" width="350px" height="350px"></div>
+        <div class="left-stack">
+            <div>
+                <div class="hover-title"><button class="button"><span>Instagram - lauren</span></button></div>
+                <div class="hover-image"><img class="bordered-img" src="images/IGlauren.jpg" alt="Instagram - lauren" width="350px" height="350px"></div>
+            </div>
+            <div>
+                <div class="hover-title"><button class="button"><span>Instagram - Gabriel Picolo</span></button></div>
+                <div class="hover-image"><img class="bordered-img" src="images/IGgabrielpicolo.jpg" alt="Instagram - Gabriel Picolo" width="350px" height="350px"></div>
+            </div>
+            <div>
+                <div class="hover-title"><button class="button"><span>Instagram - meg</span></button></div>
+                <div class="hover-image"><img class="bordered-img" src="images/IGmeg.jpg" alt="Instagram - meg" width="350px" height="350px"></div>
+            </div>
+            <div>
+                <div class="hover-title"><button class="button"><span>Instagram - JAM</span></button></div>
+                <div class="hover-image"><img class="bordered-img" src="images/IGjam.jpg" alt="Instagram - JAM" width="350px" height="350px"></div>
+            </div>
        </div>
-       <div style="width: 350px;"></div>
-       <div> 
-            <div class="hover-title"><h4>Danny Phantom</h4></div>
-            <div class="hover-image"><img class="bordered-img" src="images/dannyphantom-sq.jpg" alt="Photo of Danny Phantom" width="350px" height="350px"></div>
-            <div class="hover-title"><h4>Alvin & the Chipmunks</h4></div>
-            <div class="hover-image"><img class="bordered-img" src="images/chipmunks-sq.jpg" alt="Photo of the Chipmunks" width="350px" height="350px"></div>
-            <div class="hover-title"><h4>Gravity Falls</h4></div>
-            <div class="hover-image"><img class="bordered-img" src="images/gravityfalls-sq.jpg" alt="Photo of Gravity Falls" width="350px" height="350px"></div>
-            <div class="hover-title"><h4>Ducktales</h4></div>
-            <div class="hover-image"><img class="bordered-img" src="images/ducktales-sq.jpg" alt="Photo of Ducktales" width="350px" height="350px"></div>
+       <div class="center-image" style="width: 350px;"></div>
+       <div class="right-stack"> 
+            <div>
+                <div class="hover-title"><button class="button right-stack"><span>Danny Phantom</span></button></div>
+                <div class="hover-image"><img class="bordered-img" src="images/dannyphantom-sq.jpg" alt="Photo of Danny Phantom" width="350px" height="350px"></div>
+            </div>
+            <div>
+                <div class="hover-title"><button class="button"><span>Alvin & the Chipmunks</span></button></div>
+                <div class="hover-image"><img class="bordered-img" src="images/chipmunks-sq.jpg" alt="Photo of the Chipmunks" width="350px" height="350px"></div>
+            </div>
+            <div>
+                <div class="hover-title"><button class="button"><span>Gravity Falls</span></button></div>
+                <div class="hover-image"><img class="bordered-img" src="images/gravityfalls-sq.jpg" alt="Photo of Gravity Falls" width="350px" height="350px"></div>
+            </div>
+            <div>
+                <div class="hover-title"><button class="button"><span>Ducktales</span></button></div>
+                <div class="hover-image"><img class="bordered-img" src="images/ducktales-sq.jpg" alt="Photo of Ducktales" width="350px" height="350px"></div>
+            </div>
         </div>
     </div>
 
