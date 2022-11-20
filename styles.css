@@ -27,11 +27,15 @@ body {
 .header-left {
     display: flex;
     flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-evenly;
 }
 
 .header-right {
     display: flex;
     flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-evenly;
 }
 
 @media only screen and (max-width: 580px) {
