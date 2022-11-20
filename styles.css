@@ -2,7 +2,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border: 0px 0px 0px 0px;
     background-color: lavenderblush;
-    padding: 0 0 0 0;
+    padding: 0px 0px 0px 0px;
 }
 
 .bg-skyline {
@@ -24,13 +24,38 @@ body {
     padding-bottom: 10px;
 }   
 
+.header-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 580px) {
+    .header-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .header-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 .index-content {
     min-height: calc(95vh - 80px); 
 }
 
 .main-content {
     min-height: calc(100vh - 80px);
-    padding: 0 0 0 0;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
 }
 
 .placeholder {
@@ -90,6 +115,7 @@ body {
     padding: 10px;
     justify-content: space-evenly;
     justify-self: center;
+    align-items: center;
     
 }
 
@@ -178,7 +204,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 
 .hover-image {
     display: flex;
-    position: fixed;
+    position: absolute;
     top: 450px;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -226,6 +252,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 
 .insp-container {
     display: flex;
+    height: 270px;
     align-items: center;
 }
 
@@ -234,5 +261,11 @@ body:not(.mobile) .hover-title:hover + .hover-image {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .main-white {
+        padding: 0px 0px;
     }
 }
